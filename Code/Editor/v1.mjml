@@ -1,0 +1,127 @@
+<mjml>
+  <mj-head>
+    <mj-title>UNest</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif;" />
+    </mj-attributes>
+    <mj-style>
+      .border-bottom {
+        border-bottom: 3px solid #D5ECE3 !important;
+      }
+
+      .border-top {
+        border-top: 1px solid #D5ECE3 !important;
+      }
+
+      .border-left {
+        border-left: 1px solid #D5ECE3 !important;
+      }
+
+      .border-right {
+        border-right: 1px solid #D5ECE3 !important;
+      }
+    </mj-style>
+    <mj-font name="Proxima Nova" href="https://fonts.googleapis.com/css?family=Proxima Nova:400,700&display=swap" />
+  </mj-head>
+  <mj-body background-color="#F2FAF7" width="600px">
+    <mj-wrapper padding="0px 15px">
+      <!-- start section 1 - primary logo banner -->
+      <mj-section padding="0px">
+        <mj-column width="100%">
+          <mj-image href="#" align="center" src="https://res.cloudinary.com/dn-cloud/image/upload/v1607586563/MongoDB_Logo_FullColorBlack_RGB_weywuv.png" alt="UNest" padding="30px 0px" width="200px" />
+        </mj-column>
+      </mj-section>
+      <!-- end section 1 - primary logo banner -->
+      <!-- start section 2 - hero image -->
+      <mj-section padding="0px" border-radius="10px 10px 0px 0px" css-class="border-left border-right border-top" background-color="#ffffff">
+        <mj-column width="100%">
+          <!-- start image -->
+          <mj-image align="center" src="https://res.cloudinary.com/dn-cloud/image/upload/v1607587013/Screen_Shot_2020-12-09_at_11.12.30_PM_nn5gux.png" alt="Hero banner image" padding="50px 30px 0px 0px" />
+          <!-- end image -->
+        </mj-column>
+      </mj-section>
+      <!-- end section 2 - hero image -->
+
+      <mj-section css-class="border-left border-right" background-color="#ffffff" padding="50px 25px">
+        <mj-column width="100%">
+          <mj-text padding="20px 25px" line-height="20px" color="#f8f8f8" font-size="14px" container-background-color="#3f3f3f">
+            <p style="margin-bottom:0;padding-bottom:0px">
+              <span style="color:whi
+            te">var mydoc = {
+              </span>
+            </p>
+            <p style="margin-top:0pxpadding-top:0px;padding-left:100px">
+             <span style="color:aqua;font-weight:700">_id:</span> ObjectId("5099803df3f4948bd2f98391"),
+              <br />
+              <span style="color:aqua;font-weight:700">name:</span> { first: "Alan", last: "Turing" },
+              <br />
+              <span style="color:aqua;font-weight:700">birth:</span> new Date('Jun 23, 1912'),
+              <br />
+              <span style="color:aqua;font-weight:700">death:</span> new Date('Jun 07, 1954'),
+              <br />
+              <span style="color:aqua;font-weight:700">contribs:</span> [ "Turing machine", "Turing test", "Turingery" ],
+              <br />
+              <span style="color:aqua;font-weight:700">views :</span> NumberLong(1250000)
+              <br />}
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <!-- start section 3 - header, body text, button, & under button text -->
+      <mj-section background-color="#ffffff" padding="0px" border-radius="0px 0px 5px 5px" css-class="border-bottom border-left border-right">
+        <mj-column width="100%">
+          <!-- start header text -->
+          <mj-text font-family="Helvetica, Arial, sans-serif;" font-size="40px" font-weight="700" line-height="40px" align="center" color="#116149" padding="30px 45px 30px 45px">
+            Unlock Cloud Databases
+            <br />
+            With MongoDB
+
+
+          </mj-text>
+          <!-- end header text -->
+          <!-- start body text -->
+          <mj-text font-family="Helvetica, Arial, sans-serif;" font-size="16px" font-weight="400" line-height="22px" align="center" color="#373E41" padding="0px 50px 0px 50px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </mj-text>
+          <!-- end body text -->
+          <!-- start button -->
+          <mj-button href="https://unest.co/" font-family="Helvetica, Arial, sans-serif;" font-size="16px" font-weight="700" line-height="16px" align="center" color="#ffffff" background-color="#116149" border-radius="100px" width="250px" inner-padding="14px" padding="30px 25px 30px 25px">
+            Lorem Ipsum Dolor
+          </mj-button>
+          <!-- end button -->
+          <!-- start under button text -->
+          <mj-text font-family="Helvetica, Arial, sans-serif;" font-size="18px" font-weight="400" line-height="24px" align="center" color="#373E41" padding="0px 50px 36px 50px">
+            Sincerely, the UNest team
+          </mj-text>
+          <!-- end under button text -->
+        </mj-column>
+      </mj-section>
+      <!-- end section 3 - header, body text, button, & under button text -->
+      <!-- start section 4 - social footer & legal -->
+      <mj-section background-color="#F2FAF7" padding="33px 0px 0px 0px">
+        <mj-column width="100%">
+          <mj-social padding="0px">
+            <mj-social-element src="https://res.cloudinary.com/dn-cloud/image/upload/v1607563998/Asset_2_2x_enf6uj.png" icon-size="25px" padding="0px 10px" alt="Facebook" href="#">
+
+            </mj-social-element>
+            <mj-social-element src="https://res.cloudinary.com/dn-cloud/image/upload/v1607563998/Asset_1_2x_jv7bg6.png" icon-size="25px" padding="0px 10px" alt="Twitter" href="#">
+
+            </mj-social-element>
+            <mj-social-element src="https://res.cloudinary.com/dn-cloud/image/upload/v1607563998/Asset_3_2x_etlxfy.png" icon-size="25px" padding="0px 10px" alt="Instagram" href="#">
+
+            </mj-social-element>
+          </mj-social>
+          <mj-text font-family="Helvetica, Arial, sans-serif;" font-size="12px" font-weight="400" line-height="20px" align="center" color="#3D785C" padding="21px 40px 0px 40px">
+            This email is operated by UNest Advisers, LLC., an SEC Registered Investment Advisor. UNest does not provide investment advice on investments that are guaranteed by a bank or otherwise, or that are FDIC-insured. Investing involves risk and investments may lose value. Please consider your objectives, 529 plan tax considerations, and UNest pricing before investing. Past performance does not guarantee future results. Investment outcomes and projections are hypothetical in nature. UNest does not provide brokerage services. To understand Calculation Methodology, refer to the Disclosure about College Savings Calculator. See UNest Brochure for additional information about risks. Please review the program description here.
+          </mj-text>
+          <mj-text font-family="Helvetica, Arial, sans-serif;" font-size="12px" font-weight="400" line-height="20px" align="center" color="#3D785C" padding="30px 40px">
+            You can unsubscribe <a href="#" style="color:#3D785C">here</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- end section 4 - social footer & legal -->
+    </mj-wrapper>
+  </mj-body>
+</mjml>
